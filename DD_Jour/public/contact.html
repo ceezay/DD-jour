@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DD Jour | Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/media-contact.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+            <ul class="links">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="projects.html">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact">
+            <div class="row">
+            	
+                <div class="c-l">
+            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="l-button">
+                        <h4> <a href="#qns">Take Questionnaire</a>&nbsp;<i class="ion-chevron-right"></i> </h4>
+                    </div>
+            	</div>
+
+            	<div class="c-r">
+
+                    <div class="c-form">
+                        <h3>Get in touch</h3>
+                        <div class="line1">&nbsp;</div>
+                		<form action="https://afternoon-waters-88433.herokuapp.com/form_submit" method="POST">
+                            <div>
+                                <label for="name">Name</label>
+                                <input id="name" type="text" name="name" placeholder="Enter your name">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>      
+                                <input id="email" type="email" name="email" placeholder="example@email.com">
+                            </div>
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" type="tel" name="phone" placeholder="9000000000">
+                            </div>
+                            <div>
+                                <label for="projects">Type of Project</label>
+                                <select id="projects" name="services">
+                                    <option value="Residential">Residential Design</option>
+                                    <option value="Commercial">Commercial Design</option>
+                                    <option value="Rennovation">Rennovations and Redecorations</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" cols="30" placeholder="Write us a message"></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+
+            	</div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="qn" id="qns">
+        <h3>Get into the the details</h3>
+        <div class="line2">&nbsp;</div>
+        <form class="row" action="https://afternoon-waters-88433.herokuapp.com/ques" method="POST">
+            <div class="f-l">
+               <div>
+                    <label for="name1">Name</label>
+                    <input id="name1" type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="email1">Email</label>      
+                    <input id="email1" type="email" name="email" placeholder="example@email.com">
+                </div>
+                <div>
+                    <label for="phone1">Phone Number</label>
+                    <input id="phone1" type="tel" name="phone" placeholder="9000000000">
+                </div>
+                <div>
+                    <label for="location">Where do you live?</label>
+                    <input id="location" type="text" name="location" placeholder="Locality,City">
+                </div>
+                 <!--<div>
+                    <label for="projects">Type of Project</label>
+                    <select id="projects" name="services">
+                        <option value="residential">Residential Design</option>
+                        <option value="commercial">Commercial Design</option>
+                        <option value="rennovation">Rennovations and Redecorations</option>
+                    </select>
+                </div>-->
+                <div class="c-box">
+                    <label for="project">Type of project :</label>
+                    <input id="project" type="checkbox" name="project1" value="Decoration/Interior Styling"><p>Decoration/Interior Styling </p><br>
+                    <input id="project" type="checkbox" name="project1" value="Joinery design/install"><p>Joinery design/install</p><br>
+                    <input id="project" type="checkbox" name="project1" value="Small rennovation"><p>Small rennovation <br>(e.g. kitchen/bathroom/joinery/styling)</p><br>
+                    <input id="project" type="checkbox" name="project1" value="Large rennovation"><p>Large rennovation (e.g. full home rennovation)</p><br>
+                    <input id="project" type="checkbox" name="project1" value="Interiors for a new build"><p>Interiors for a new build</p><br>
+                </div> 
+                <div class="c-box">
+                    <label for="stage">What stage are you at?</label>
+                    <input id="stage" type="checkbox" name="stage1" value="Just starting to gather some ideas"><p>Just starting to gather some ideas</p><br>
+                    <input id="stage" type="checkbox" name="stage1" value="Have design documentation developed and looking for a builder/trades"><p>Have design documentation developed <br> and looking for a builder/trades</p><br>
+                    <input id="stage" type="checkbox" name="stage1" value="Have engaged a builder andd about to start"><p>Have engaged a builder andd about to start</p><br>
+                    <input id="stage" type="checkbox" name="stage1" value="Have already commenced building"><p>Have already commenced building</p><br>
+                    <input id="stage" type="checkbox" name="stage1" value="Have completed/close to completion"><p>Have completed/close to completion</p><br>
+                    <input id="stage" type="checkbox" name="stage1" value="Other"><p>Other</p><br>
+                </div>
+                <div>
+                    <label for="start_date">Preferred start date for your project :</label>
+                    <input id="start_date" type="date" name="start_date" placeholder="DD/MM/YY">
+                </div>
+                <div>
+                    <label for="scope">Please briefly describe the scope of your project (what you want/need help with) :</label>
+                    <textarea id="scope" name="scope" rows="4" cols="30"></textarea>
+                </div>
+                <div class="c-box">
+                    <label for="room">Which rooms do you need help with?</label>
+
+                    <input id="room" type="checkbox" name="room1" value="Entrance/Hallway/Mudroom"><p>Entrance/Hallway/Mudroom</p><br>
+
+                    <input id="room" type="checkbox" name="room1" value="Kitchen"><p>Kitchen</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Dinning"><p>Dinning</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Lounge"><p>Lounge</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Open Plan Living Space"><p>Open Plan Living Space</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Bathroom"><p>Bathroom</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Children Bedroom"><p>Children Bedroom(s)</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Master Bedroom"><p>Master Bderoom</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Guest Bedroom"><p>Guest Bedroom</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Ensuite"><p>Ensuite</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Nursery"><p>Nursery</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Outdoor space"><p>Outdoor space</p><br>
+                    <input id="room" type="checkbox" name="room1" value="Other"><p>Other</p><br>
+                </div>
+            </div>
+            <div class="f-r">
+                <div>
+                    <label for="size_of_space">Please provide approximate size of the space(s) (e.g. approximately 100sqm) :</label>
+                    <textarea id="size_of_space" name="size" rows="4" cols="30"></textarea>
+                </div>
+                <div>
+                    <label for="special_requirements">Do you have any special requirements or considerations we should be aware of (e.g. access requirements, family friendly, on a tight budget) :</label>
+                    <textarea id="special_requirements" name="special_requirements" rows="4" cols="30"></textarea>
+                </div>
+                <div>
+                    <label for="design_style">How would you describe your design style (don't think over this - just what comes to your mind or what you like) :</label>
+                    <textarea id="design_style" name="design_style" rows="4" cols="30"></textarea>
+                </div>
+                <div>
+                    <label for="family">Please describe your family or who lives there (including children/pets etc.) :</label>
+                    <textarea id="family" name="family" rows="4" cols="30"></textarea>
+                </div>
+                <div class="c-box">
+                    <label for="budget">What is your total budget including design fees?</label>
+                    <input id="budget" type="checkbox" name="price1" value="Under INR 5 lakhs"><p>Under INR 5 lakhs</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="INR 5 lakhs - 20 lakhs"><p>INR 5 lakhs - 20 lakhs</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="INR 20 lakhs - 50 lakhs"><p>INR 20 lakhs - 50 lakhs</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="INR 50 lakhs - 80 lakhs"><p>INR 50 lakhs - 50 lakhs</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="INR 80 lakhs - 1 crore"><p>INR 80 lakhs - 1 crore</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="INR 1 crore - 5 crore"><p>INR 1 crore - 5 crore</p><br>
+                    <input id="budget" type="checkbox" name="price1" value="Above INR 5 crore"><p>Above INR 5 crore</p><br>
+                </div>
+                <div>
+                    <label for="links">Please provide any links to pinterest board(s) or any other inspiring spaces that you feel reflects your style :</label>
+                    <textarea id="links" name="links" rows="4" cols="30"></textarea>
+                </div>
+                <div>
+                    <label for="other_desp">Is there anything else you would like to ask/tell us about your project?</label>
+                    <textarea id="other_desp" name="other_desp" rows="4" cols="30"></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+            
+        </form>
+
+    	
+    </section>
+    <footer class="footer">
+        <div class="row">
+            <div class="f-ele ele-1">
+                <h4>DD JOUR</h4>
+                <pre>Inspired By Innovation</pre>
+                <div class="subscribe">
+                    <input type="email" name="subscribe" placeholder="Enter your Email">
+                    <button>Subscribe</button>
+                </div>
+                <p>DD Jour&copy;&nbsp;2018</p>
+            </div>
+            <div class="f-ele ele-2">
+                <h5>Site Map</h5>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Portfolio</a></li>
+                    <li><a href="index.html#testimonial">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="f-ele ele-3">
+                <h5>Contact info</h5>
+                <div>
+                    <p><i class="ion-location"></i><a href="">445 Mount Eden Road, <br>&nbsp;&nbsp;&nbsp;&nbsp;Mount Eden, Auckland</a></p>
+                    <p><i class="ion-ios-telephone"></i><a href="">(+91)9XXXXXXXXX</a></p>
+                    <p><i class="ion-email"></i><a href="mailto:idsolutions@gmail.com">idsolutions@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="f-ele ele-4">
+                <h5>Stay in Touch</h5>
+                <div>
+                    <a href="https://www.facebook.com/DdjourDecorsnDesigns/"><i class="ion-social-facebook"></i></a>
+                    <a href=""><i class="ion-social-instagram"></i></a>
+                    <a href=""><i class="ion-social-twitter"></i></a>
+                    <a href=""><i class="ion-social-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

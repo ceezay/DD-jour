@@ -1,0 +1,781 @@
+@media screen and (max-width: 1440px) {
+
+    .steps {
+        margin-top: -50px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 52%;
+    }
+
+    .nav li a {
+        color:#fff;
+        letter-spacing: 4px;
+        font-size: 10px; 
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .title h3 {
+        font-size: 11px;
+    }
+
+    .steps {
+        width: 85%;
+        padding: 50px 30px;
+    }
+
+    .step-ele {
+        margin: 5px 5px;
+        width: 30%;
+    }
+
+    .step-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ele-l h3 {
+        font-size: 17px;
+    }
+
+    .ele-l p {
+        font-size: 13px;
+    }
+
+    .ele-num {
+        font-size: 27px;
+    }
+
+    .spec-banner {
+        height: 50vh;
+    }
+
+    .spec-banner h2 {
+        font-size: 30px;
+    }
+
+    .spec-ele {
+        width: 80%;
+        margin-top: -40px;
+    }
+
+    .spec-ele-img,
+    .spec-ele-txt {
+        height: 250px;
+    }
+
+    .spec-ele-txt {
+        padding: 70px 30px;
+    }
+
+    .spec-ele-txt h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .spec-ele-txt p {
+        font-size: 12px;
+    }
+
+    .spec-button h4 {
+        font-size: 13px;
+    }
+
+    .about {
+        margin: 30px 0;
+        padding: 70px 70px;
+    }
+
+    .line {
+        height: 90px;
+        width: 4px;
+        left: 37%;
+        transform: translateX(-37%);
+    }
+
+    .a-r {
+        width:70%;
+        padding: 10px 90px;
+        padding-right: 10px;
+
+    }
+
+    .a-l {
+        height: 200px;
+        width: 30%;
+    }
+
+    .a-r h3 { 
+        font-size: 28px;
+    }
+
+    .a-r p {
+        font-size: 15px;
+    }
+
+    .a-r a {
+        font-size: 15px;
+    }
+
+    .a-r i {
+        font-size: 14px;
+    }
+
+    .logo_wm1 > img {
+        transform: scale(1);
+    }
+
+    .projects h2 {
+        font-size: 28px;
+    }
+
+    .grid {
+        grid-auto-rows: minmax(130px, auto);
+    }
+
+    .testimonials {
+        margin: 10px 0 40px 0;
+        padding: 50px 50px;
+    }
+
+    .testimonials .line {
+        left: 55%;
+        transform: translateX(-55%);
+    }
+
+    .t-l {
+        width:60%;
+        padding: 20px 80px;
+        padding-left: 40px;
+    }
+
+    .t-r {
+        height: 250px;
+        width: 35%;
+    }
+
+    .t-l h3 { 
+        font-size: 28px;
+    }
+
+    .t-l p {
+        font-size: 15px;
+    }
+
+    .t-l a {
+        font-size: 15px;
+    }
+
+    .t-l i {
+        font-size: 13px;
+    }
+
+    .contact {
+        height: 45vh;
+    }
+
+    .contact h2 {
+        font-size:   30px;
+        margin: 40px 0 15px 0;
+    }
+
+    .contact p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+    }
+
+    .contact button {
+        width: 17%;
+        height: 35px;
+        font-size: 13px;     
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 10px 20px;
+
+    }
+
+    .f-ele {
+        width:23%;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {
+        width: 28%;
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 60px;
+    }
+
+    .ele-3,
+    .ele-4 {
+        width: 24%;
+        padding: 0 10px 0 20px;
+    }
+
+
+    .f-ele h4 {
+        font-size: 28px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 7px;
+    }
+
+    .ele-3 i {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .ele-4 i {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .subscribe  {
+        margin: 30px 0 20px 0;
+    }
+
+    .subscribe input {
+        height: 32px;
+        padding-left: 8px;
+
+    } 
+
+    .subscribe button {
+        height: 32px;
+        font-size: 9px;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .header {
+        height: 80vh;
+    }
+    
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .nav li a {
+        font-size: 10px; 
+        letter-spacing: 2px;
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .title h3 {
+        font-size: 10px;
+    }
+
+    .steps {
+        width: 80%;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .step-ele {
+        margin: 5px 5px;
+        width: 30%;
+        padding-bottom: 10px;
+    }
+
+    .step-icon {
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
+    }
+
+    .ele-l h3 {
+        font-size: 15px;
+    }
+
+    .ele-l p {
+        font-size: 12px;
+    }
+
+    .ele-num {
+        font-size: 25px;
+    }
+
+    .spec-banner {
+        height: 40vh;
+    }
+
+    .spec-banner h2 {
+        font-size: 25px;
+    }
+
+    .spec-ele {
+        width: 80%;
+        margin-top: -40px;
+    }
+
+    .spec-ele-img,
+    .spec-ele-txt {
+        height: 200px;
+    }
+
+    .spec-ele-txt {
+        padding: 50px 20px;
+    }
+
+    .spec-ele-txt h3 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .spec-ele-txt p {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .spec-button h4 {
+        font-size: 12px;
+    }
+
+    .about {
+        margin: 20px 0;
+        padding: 40px 45px;
+    }
+
+    .line {
+        height: 70px;
+        width: 3px;
+        left: 37%;
+        transform: translateX(-37%);
+    }
+
+    .a-r {
+        width:70%;
+        padding: 10px 75px;
+        padding-right: 10px;
+
+    }
+
+    .a-l {
+        height: 200px;
+        width: 30%;
+    }
+
+    .a-r h3 { 
+        font-size: 25px;
+    }
+
+    .a-r p {
+        font-size: 15px;
+    }
+
+    .a-r a {
+        font-size: 15px;
+    }
+
+    .a-r i {
+        font-size: 12px;
+    }
+
+    .logo_wm1 > img {
+        transform: scale(1);
+    }
+
+    .projects h2 {
+        font-size: 25px;
+    }
+
+    .grid {
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .testimonials {
+        margin: 20px 0;
+        padding: 40px 45px;
+    }
+
+    .testimonials .line {
+        left: 60%;
+        transform: translateX(-60%);
+    }
+
+    .t-l {
+        width:70%;
+        padding: 10px 50px;
+        padding-left: 10px;
+    }
+
+    .t-r {
+        height: 200px;
+        width: 30%;
+    }
+
+    .t-l h3 { 
+        font-size: 25px;
+    }
+
+    .t-l p {
+        font-size: 15px;
+    }
+
+    .t-l a {
+        font-size: 15px;
+    }
+
+    .t-l i {
+        font-size: 12px;
+    }
+
+    .contact {
+        height: 40vh;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+        margin: 40px 0 15px 0;
+    }
+
+    .contact p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+    }
+
+    .contact button {
+        width: 17%;
+        height: 35px;
+        font-size: 13px;     
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 15px 20px;
+
+    }
+
+    .f-ele {
+        width: 24%;
+        text-align: left;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {    
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 12px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 50px;
+    }
+
+    .ele-3 {
+        width: 26%;
+    }
+
+    .ele-3,
+    .ele-4 {
+        padding: 0 10px 0 10px;
+    }
+
+    .f-ele li {
+       margin-bottom: 2px;
+    }
+
+    .f-ele h4 {
+        font-size: 23px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        margin-bottom: 13px; 
+    }
+
+    .f-ele a {
+        font-size: 11px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 5px;
+    }
+
+    .ele-3 i {
+        font-size: 15px;
+        margin-right: 12px;
+    }
+
+    .ele-4 i {
+        font-size: 25px;
+        margin-right: 13px;
+    }
+
+    .subscribe  {
+        margin: 20px 0;
+    }
+
+    .subscribe input {
+        width: 100%;
+        height: 30px;
+        padding: 0 2px 0 6px;
+    } 
+
+    .subscribe button {
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .header {
+        height: 75vh;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .title {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .title h3 {
+        font-size: 10px;
+    }
+
+    .steps {
+        width: 90%;
+        padding: 40px 20px 20px 20px;
+    }
+
+    .step-icon {
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
+    }
+
+    .steps .step-ele {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .spec-banner h2 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .spec-ele {
+        width: 90%;
+    }
+
+    .spec-ele div {
+        width: 100%;
+    }
+
+    .spec-ele-txt p{
+        font-size: 15px;
+    }
+
+    .about {
+        padding: 60px 50px;
+    }
+
+    .a-l {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .a-r {
+        width: 100%;
+        padding: 0;
+    }
+
+    .a-r h3 {
+        text-align: center;
+    }
+
+    .grid div h4 {
+        font-size: 20px;
+    }
+
+    .grid div h4:after {
+        border: 1px solid;
+        margin-top: 5px;
+        width: 40%;
+    }
+
+    .p_img1 {
+        grid-column: span 6;
+        grid-row: span 1;
+    }
+
+    .p_img2 {
+        grid-column: span 6;
+        grid-row: span 1;
+    }
+
+    .p_img3 {
+        grid-column: span 6;
+        grid-row: span 1;
+    }
+
+    .p_img4 {
+        grid-column: span 6;
+        grid-row: span 1;
+    }
+
+    .p_img5 {
+        grid-column: span 6;
+        grid-row: span 1;
+    }
+
+    .testimonials {
+        padding: 60px 50px;
+    }
+
+    .t-r {
+        display: none;
+    }
+
+    .t-l {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact {
+        height: 40vh;
+    }
+
+    .contact h2 {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .contact p {
+        width: 80%;
+        font-size: 11px;
+    }
+
+    .contact button {
+        width: 50%;
+    }
+
+    .f-ele {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .f-ele li {
+        display: inline-block;
+    }
+
+    .f-ele h4 {
+        font-size: 30px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 13.5px;
+    }
+
+    .ele-3 i {
+        font-size: 18px;
+    }
+
+    .ele-3 div {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .subscribe {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .ele-1 p {
+        display: none;
+    }
+
+    .subscribe input {
+        margin-right: 5px;
+    }
+
+    .subscribe button {
+        margin: 0;
+    }
+}
