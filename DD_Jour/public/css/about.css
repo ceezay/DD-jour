@@ -40,8 +40,8 @@ a:active, a:focus {
 .logo {
 	margin-top: 15px;
 	margin-left: 5px;
-	width: 100px;
-	height: 15px;
+	width: 185px;
+	height: 40px;
 	float: left;
 
 }
@@ -191,7 +191,7 @@ a:active, a:focus {
 }
 
 .logo_wm1 img {
-	transform: scale(2);
+	transform: scale(1);
 }
 
 .d-l img {
