@@ -48,11 +48,6 @@ a:focus {
     float: left;
 }
 
-.title .c_title {
-	display: none;
-}
-
-
 .links {
     float: right;
     list-style: none;

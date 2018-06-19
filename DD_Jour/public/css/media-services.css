@@ -1,35 +1,35 @@
 @media screen and (max-width: 1440px) {
 
-	.links {
-		width: 45%;
-	}
+    .links {
+        width: 45%;
+    }
 
     .title {
         font-size: 18px;
         padding: 0 10px;
     }
 
-	.ser-ele {
-		width: 23%;
-	}
+    .ser-ele {
+        width: 23%;
+    }
 
-	.partners {
-		height: 30vh;
-	}
+    .partners {
+        height: 30vh;
+    }
 }
 
 @media screen and (max-width: 1024px) {
 
-	 .links {
+    .links {
         padding: 0;
         margin-top: 10px;
         width: 52%;
     }
 
     .nav li a {
-        color:#fff;
+        color: #fff;
         letter-spacing: 4px;
-        font-size: 10px; 
+        font-size: 10px;
     }
 
     .c_button {
@@ -47,64 +47,63 @@
     }
 
     .s-ele {
-    	width: 16%;
+        width: 16%;
     }
 
     .s-ele img {
-    	height: 60px;
-    	width: 60px;
+        height: 60px;
+        width: 60px;
     }
 
     .s-arrow img {
-    	height: 20px;
-    	width: 20px;
+        height: 20px;
+        width: 20px;
     }
 
     .s-ele h4 {
-    	font-size: 11px;
+        font-size: 11px;
     }
 
     .s-category h2 {
-    	font-size: 25px;
+        font-size: 25px;
     }
 
     .s-category {
-    	width: 90%;
+        width: 90%;
     }
 
     .ser-ele {
-    	width: 22.5%;
+        width: 22.5%;
     }
 
     .ele-img img {
-    	height: 200px;
+        height: 200px;
     }
 
     .ele-desp h3 {
-    	font-size: 15px;
+        font-size: 15px;
     }
 
     .ele-desp p {
-    	font-size: 11px;
-    	margin-bottom: 5px;
+        font-size: 11px;
+        margin-bottom: 5px;
     }
 
     .partners {
-    	height: 30vh;
+        height: 30vh;
     }
 
     .partners img {
-    	width: 150px;
+        width: 150px;
     }
 
     .footer {
         margin: 40px 0 0 0;
         padding: 30px 10px 10px 20px;
-
     }
 
     .f-ele {
-        width:23%;
+        width: 23%;
         padding: 0 40px 0 5px;
     }
 
@@ -161,35 +160,32 @@
         margin-right: 15px;
     }
 
-    .subscribe  {
+    .subscribe {
         margin: 30px 0 20px 0;
     }
 
     .subscribe input {
         height: 32px;
         padding-left: 8px;
-
-    } 
+    }
 
     .subscribe button {
         height: 32px;
         font-size: 9px;
     }
 
-    ::placeholder {
+     ::placeholder {
         font-size: 10px;
     }
-
-
 }
 
 
 @media screen and (max-width: 768px) {
 
-	.header {
+    .header {
         height: 80vh;
     }
-    
+
     .links {
         padding: 0;
         margin-top: 10px;
@@ -197,7 +193,7 @@
     }
 
     .nav li a {
-        font-size: 10px; 
+        font-size: 10px;
         letter-spacing: 2px;
     }
 
@@ -216,61 +212,59 @@
     }
 
     .s-ele {
-    	width: 14%;
+        width: 14%;
     }
 
     .s-ele img {
-    	height: 60px;
-    	width: 60px;
+        height: 60px;
+        width: 60px;
     }
 
     .s-arrow img {
-    	height: 20px;
-    	width: 20px;
+        height: 20px;
+        width: 20px;
     }
 
     .s-ele h4 {
-    	font-size: 10px;
+        font-size: 10px;
     }
 
     .s-category h2 {
-   		font-size: 25px;
+        font-size: 25px;
     }
 
     .ser-ele {
-    	width: 44%;
+        width: 44%;
     }
 
     .ele-img img {
-    	height: 250px;
-
+        height: 250px;
     }
 
     .ele-desp h3 {
-    	font-size: 17px;
+        font-size: 17px;
     }
 
     .ele-desp p {
-    	font-size: 13px;	
+        font-size: 13px;
     }
 
     .partners {
-    	height: 30vh;
+        height: 30vh;
     }
 
     .partners .row div {
-    	width: 18%;
-    	margin-right: 10px;
+        width: 18%;
+        margin-right: 10px;
     }
 
     .partners img {
-    	width: 120px;
+        width: 120px;
     }
 
     .footer {
         margin: 40px 0 0 0;
         padding: 30px 10px 15px 20px;
-
     }
 
     .f-ele {
@@ -279,7 +273,7 @@
         padding: 0 40px 0 5px;
     }
 
-    .ele-1 {    
+    .ele-1 {
         margin-top: -5px;
     }
 
@@ -301,7 +295,7 @@
     }
 
     .f-ele li {
-       margin-bottom: 2px;
+        margin-bottom: 2px;
     }
 
     .f-ele h4 {
@@ -316,7 +310,7 @@
     .f-ele h5 {
         font-size: 14px;
         letter-spacing: 1.2px;
-        margin-bottom: 13px; 
+        margin-bottom: 13px;
     }
 
     .f-ele a {
@@ -337,7 +331,7 @@
         margin-right: 13px;
     }
 
-    .subscribe  {
+    .subscribe {
         margin: 20px 0;
     }
 
@@ -345,7 +339,7 @@
         width: 100%;
         height: 30px;
         padding: 0 2px 0 6px;
-    } 
+    }
 
     .subscribe button {
         width: 100%;
@@ -356,12 +350,29 @@
 
 @media screen and (max-width: 425px) {
 
-	.header {
+    .header {
         height: 75vh;
     }
+
+    .logo {
+        margin: 0;
+        display: inline !important;
+        width: 33%;
+        height: 37px;
+    }
+
+    .c_button {
+        width: 100px;
+    }
+
     .links {
+        display: inline !important;
+    }
+
+    .link-hide {
         display: none;
     }
+
 
     .title {
         font-size: 12px;
@@ -372,53 +383,53 @@
         width: 90%;
         padding: 40px 20px 20px 20px;
         margin: -80px auto 50px auto;
-    }   
+    }
 
     .s-ele {
-    	width: 25%
+        width: 25%
     }
 
     .s-arrow {
-    	width: 10%;
+        width: 10%;
     }
 
     .s-arrow img {
-    	height: 20px;
-    	width: 20px;
+        height: 20px;
+        width: 20px;
     }
 
     .s-category h2 {
-    	font-size: 19px;
+        font-size: 19px;
     }
 
     .ser-ele {
-    	width: 100%;
+        width: 100%;
     }
 
     .ele-desp h3 {
-    	font-size: 17px;
+        font-size: 17px;
     }
 
     .ele-desp p {
-    	font-size: 13px;	
+        font-size: 13px;
     }
 
     .partners {
-    	height: 50vh;
+        height: 50vh;
     }
 
-    .partners .row > div {
-    	width: 30%;
-    	height: 80px;
-    	margin-top: 10px;
-    	margin-right: 20px;
-    	margin-left: -10px; 
+    .partners .row>div {
+        width: 30%;
+        height: 80px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: -10px;
     }
 
     .partners img {
-    	width: 120px;
-    	margin-top: 80px;
-    	margin-left: 50px;
+        width: 120px;
+        margin-top: 80px;
+        margin-left: 50px;
     }
 
     .f-ele {
@@ -433,19 +444,19 @@
     }
 
     .f-ele h4 {
-    	font-size: 30px;
+        font-size: 30px;
     }
 
     .f-ele h5 {
-    	font-size: 15px;
+        font-size: 15px;
     }
 
     .f-ele a {
-    	font-size: 13.5px;
+        font-size: 13.5px;
     }
 
     .ele-3 i {
-    	font-size: 18px;
+        font-size: 18px;
     }
 
 
@@ -472,6 +483,4 @@
     .subscribe button {
         margin: 0;
     }
-
-
 }
