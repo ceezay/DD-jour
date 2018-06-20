@@ -1,0 +1,467 @@
+@media screen and (max-width: 1440px) {
+    .header {
+        height: 70vh;
+    }
+
+    .links {
+        width: 45%;
+    }
+
+    .title {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .projects {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 52%;
+    }
+
+    .nav li a {
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 10px;
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .projects {
+        width: 90%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .pro-ele {
+        margin: 40px auto 40px auto;
+    }
+
+    .line {
+        width: 180px;
+        height: 2.7px;
+        top: 6.2%;
+        left: 75%;
+    }
+
+    .pro-ele h2 {
+        font-size: 29px;
+    }
+
+    .pro-l {
+        width: 40%;
+        margin: 10px 14px 10px 10px;
+    }
+
+    .pro-l img {
+        height: 300px;
+        width: 330px;
+    }
+
+    .pro-r {
+        width: 55%;
+        margin: 10px 5px 10px 12px;
+    }
+
+    .p-r-i-ele {
+        width: 50%;
+    }
+
+    .p-r-i-ele img {
+        height: 170px;
+        width: 210px;
+    }
+
+    .p-r-d p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 10px 20px;
+    }
+
+    .f-ele {
+        width: 23%;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {
+        width: 28%;
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 60px;
+    }
+
+    .ele-3,
+    .ele-4 {
+        width: 24%;
+        padding: 0 10px 0 20px;
+    }
+
+
+    .f-ele h4 {
+        font-size: 28px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 7px;
+    }
+
+    .ele-3 i {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .ele-4 i {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .subscribe {
+        margin: 30px 0 20px 0;
+    }
+
+    .subscribe input {
+        height: 32px;
+        padding-left: 8px;
+    }
+
+    .subscribe button {
+        height: 32px;
+        font-size: 9px;
+    }
+
+     ::placeholder {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 80vh;
+    }
+
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .nav li a {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        font-size: 17px;
+        margin-top: -30px;
+    }
+
+    .projects {
+        width: 95%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .pro-ele {
+        margin: 40px auto 40px auto;
+    }
+
+    .line {
+        width: 150px;
+        height: 2.3px;
+        top: 12%;
+        left: 39%;
+    }
+
+    .pro-ele h2 {
+        text-align: center;
+        font-size: 29px;
+    }
+
+    .pro-l {
+        width: 40%;
+        margin: 10px 10px;
+    }
+
+    .pro-l img {
+        height: 260px;
+        width: 260px;
+    }
+
+    .pro-r {
+        width: 50%;
+        margin: 10px 10px;
+    }
+
+    .p-r-i-ele {
+        width: 50%;
+    }
+
+    .p-r-i-ele img {
+        height: 100px;
+        width: 150px;
+    }
+
+    .p-r-d p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 15px 20px;
+    }
+
+    .f-ele {
+        width: 24%;
+        text-align: left;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 12px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 50px;
+    }
+
+    .ele-3 {
+        width: 26%;
+    }
+
+    .ele-3,
+    .ele-4 {
+        padding: 0 10px 0 10px;
+    }
+
+    .f-ele li {
+        margin-bottom: 2px;
+    }
+
+    .f-ele h4 {
+        font-size: 23px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        margin-bottom: 13px;
+    }
+
+    .f-ele a {
+        font-size: 11px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 5px;
+    }
+
+    .ele-3 i {
+        font-size: 15px;
+        margin-right: 12px;
+    }
+
+    .ele-4 i {
+        font-size: 25px;
+        margin-right: 13px;
+    }
+
+    .subscribe {
+        margin: 20px 0;
+    }
+
+    .subscribe input {
+        width: 100%;
+        height: 30px;
+        padding: 0 2px 0 6px;
+    }
+
+    .subscribe button {
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .header {
+        height: 65vh;
+    }
+
+    .logo {
+        margin: 0;
+        display: inline !important;
+        width: 33%;
+        height: 37px;
+    }
+
+    .c_button {
+        width: 100px;
+    }
+
+    .links {
+        display: inline !important;
+    }
+
+    .link-hide {
+        display: none;
+    }
+
+
+    .title {
+        font-size: 14px;
+        padding: 0 40px;
+        margin-top: -20px;
+    }
+
+    .projects {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .pro-ele {
+        margin: 40px auto 50px auto;
+    }
+
+    .line {
+        width: 150px;
+        height: 2px;
+        top: 3.5%;
+        left: 27%;
+    }
+
+    .pro-ele h2 {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .pro-l {
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    .pro-l img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .pro-r {
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    .p-r-i-ele {
+        width: 100%;
+    }
+
+    .p-r-i-ele img {
+        height: 250px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .f-ele {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .f-ele li {
+        display: inline-block;
+    }
+
+    .f-ele h4 {
+        font-size: 30px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 13.5px;
+    }
+
+    .ele-3 i {
+        font-size: 18px;
+    }
+
+
+    .ele-3 div {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .subscribe {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .ele-1 p {
+        display: none;
+    }
+
+    .subscribe input {
+        margin-right: 5px;
+    }
+
+    .subscribe button {
+        margin: 0;
+    }
+}

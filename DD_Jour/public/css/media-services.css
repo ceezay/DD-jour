@@ -1,0 +1,486 @@
+@media screen and (max-width: 1440px) {
+
+    .links {
+        width: 45%;
+    }
+
+    .title {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .ser-ele {
+        width: 23%;
+    }
+
+    .partners {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 52%;
+    }
+
+    .nav li a {
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 10px;
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+
+    .steps {
+        width: 85%;
+        padding: 50px 30px;
+        margin: -120px auto 30px auto;
+    }
+
+    .s-ele {
+        width: 16%;
+    }
+
+    .s-ele img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .s-arrow img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .s-ele h4 {
+        font-size: 11px;
+    }
+
+    .s-category h2 {
+        font-size: 25px;
+    }
+
+    .s-category {
+        width: 90%;
+    }
+
+    .ser-ele {
+        width: 22.5%;
+    }
+
+    .ele-img img {
+        height: 200px;
+    }
+
+    .ele-desp h3 {
+        font-size: 15px;
+    }
+
+    .ele-desp p {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    .partners {
+        height: 30vh;
+    }
+
+    .partners img {
+        width: 150px;
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 10px 20px;
+    }
+
+    .f-ele {
+        width: 23%;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {
+        width: 28%;
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 60px;
+    }
+
+    .ele-3,
+    .ele-4 {
+        width: 24%;
+        padding: 0 10px 0 20px;
+    }
+
+
+    .f-ele h4 {
+        font-size: 28px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 7px;
+    }
+
+    .ele-3 i {
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .ele-4 i {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .subscribe {
+        margin: 30px 0 20px 0;
+    }
+
+    .subscribe input {
+        height: 32px;
+        padding-left: 8px;
+    }
+
+    .subscribe button {
+        height: 32px;
+        font-size: 9px;
+    }
+
+     ::placeholder {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        height: 80vh;
+    }
+
+    .links {
+        padding: 0;
+        margin-top: 10px;
+        width: 65%;
+    }
+
+    .nav li a {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .c_button {
+        width: 27%;
+    }
+
+    .title {
+        font-size: 17px;
+    }
+
+    .steps {
+        width: 85%;
+        padding: 20px 30px 20px 30px;
+        margin: -70px auto 20px auto;
+    }
+
+    .s-ele {
+        width: 14%;
+    }
+
+    .s-ele img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .s-arrow img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .s-ele h4 {
+        font-size: 10px;
+    }
+
+    .s-category h2 {
+        font-size: 25px;
+    }
+
+    .ser-ele {
+        width: 44%;
+    }
+
+    .ele-img img {
+        height: 250px;
+    }
+
+    .ele-desp h3 {
+        font-size: 17px;
+    }
+
+    .ele-desp p {
+        font-size: 13px;
+    }
+
+    .partners {
+        height: 30vh;
+    }
+
+    .partners .row div {
+        width: 18%;
+        margin-right: 10px;
+    }
+
+    .partners img {
+        width: 120px;
+    }
+
+    .footer {
+        margin: 40px 0 0 0;
+        padding: 30px 10px 15px 20px;
+    }
+
+    .f-ele {
+        width: 24%;
+        text-align: left;
+        padding: 0 40px 0 5px;
+    }
+
+    .ele-1 {
+        margin-top: -5px;
+    }
+
+    .ele-1 p {
+        font-size: 12px;
+    }
+
+    .ele-2 {
+        padding: 0 30px 0 50px;
+    }
+
+    .ele-3 {
+        width: 26%;
+    }
+
+    .ele-3,
+    .ele-4 {
+        padding: 0 10px 0 10px;
+    }
+
+    .f-ele li {
+        margin-bottom: 2px;
+    }
+
+    .f-ele h4 {
+        font-size: 23px;
+    }
+
+    .f-ele pre {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .f-ele h5 {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        margin-bottom: 13px;
+    }
+
+    .f-ele a {
+        font-size: 11px;
+    }
+
+    .ele-3 p {
+        margin-bottom: 5px;
+    }
+
+    .ele-3 i {
+        font-size: 15px;
+        margin-right: 12px;
+    }
+
+    .ele-4 i {
+        font-size: 25px;
+        margin-right: 13px;
+    }
+
+    .subscribe {
+        margin: 20px 0;
+    }
+
+    .subscribe input {
+        width: 100%;
+        height: 30px;
+        padding: 0 2px 0 6px;
+    }
+
+    .subscribe button {
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .header {
+        height: 75vh;
+    }
+
+    .logo {
+        margin: 0;
+        display: inline !important;
+        width: 33%;
+        height: 37px;
+    }
+
+    .c_button {
+        width: 100px;
+    }
+
+    .links {
+        display: inline !important;
+    }
+
+    .link-hide {
+        display: none;
+    }
+
+
+    .title {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .steps {
+        width: 90%;
+        padding: 40px 20px 20px 20px;
+        margin: -80px auto 50px auto;
+    }
+
+    .s-ele {
+        width: 25%
+    }
+
+    .s-arrow {
+        width: 10%;
+    }
+
+    .s-arrow img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .s-category h2 {
+        font-size: 19px;
+    }
+
+    .ser-ele {
+        width: 100%;
+    }
+
+    .ele-desp h3 {
+        font-size: 17px;
+    }
+
+    .ele-desp p {
+        font-size: 13px;
+    }
+
+    .partners {
+        height: 50vh;
+    }
+
+    .partners .row>div {
+        width: 30%;
+        height: 80px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: -10px;
+    }
+
+    .partners img {
+        width: 120px;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+    .f-ele {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .f-ele li {
+        display: inline-block;
+    }
+
+    .f-ele h4 {
+        font-size: 30px;
+    }
+
+    .f-ele h5 {
+        font-size: 15px;
+    }
+
+    .f-ele a {
+        font-size: 13.5px;
+    }
+
+    .ele-3 i {
+        font-size: 18px;
+    }
+
+
+    .ele-3 div {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .subscribe {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .ele-1 p {
+        display: none;
+    }
+
+    .subscribe input {
+        margin-right: 5px;
+    }
+
+    .subscribe button {
+        margin: 0;
+    }
+}
