@@ -378,9 +378,9 @@ a:focus {
     position: relative;
 }
 
-.grid div h4 {
+.grid div h4  {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     left: 20px;
     color: #fff;
     font-family: "Raleway", sans-serif;
@@ -395,8 +395,23 @@ a:focus {
     display: block;
     color: #ffb900;
     border: 1.5px solid;
-    margin-top: 10px;
+    margin-top: 7px;
     width: 50%;
+}
+
+.grid div .p_head {
+    bottom: 65px;
+}
+
+.p_info {
+    font-size: 13px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.45);
+    padding: 10px;
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    right: 20px;
 }
 
 .p_img1 {
